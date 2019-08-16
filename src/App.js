@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-
+import Header from './Header.js'
 function App(){
   return(
-    <h1>Header</h1>
+    <Header/>
   )
 }
 export default App;

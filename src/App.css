@@ -1,33 +1,22 @@
-.App {
-  text-align: center;
+body{
+  font-family: Microsoft JhengHei;
+  padding: 3em;
+  background-color: rgb(200,200,200);
+  color: #222222;
+}
+.Header-Text{
+  background-color: rgb(245, 245, 245);
+  box-shadow: 10px 10px 5px grey;
+  border: solid black 0px;
+  border-radius: 2px;
+
+}
+.Header-Text h1,.Header-Text p{
+  padding: 1em;
+}
+.Header-Text h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
