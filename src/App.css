@@ -1,22 +1,10 @@
 body{
   font-family: Microsoft JhengHei;
-  padding: 3em;
-  background-color: rgb(200,200,200);
+  background-color: rgb(230,230,230);
   color: #222222;
+  margin-top: -21px;
 }
-.Header-Text{
-  background-color: rgb(245, 245, 245);
-  box-shadow: 10px 10px 5px grey;
-  border: solid black 0px;
-  border-radius: 2px;
-
-}
-.Header-Text h1,.Header-Text p{
+.appBody{
   padding: 1em;
+  height: 100vmax;
 }
-.Header-Text h1{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-
